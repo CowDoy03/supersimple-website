@@ -1,0 +1,56 @@
+/* CSS Document */
+body {
+    background-color: rgb(211, 255, 163);
+}
+
+div.header {
+    position: fixed;
+    background-color: rgb(250, 122, 122);
+    border: 5px solid black;
+    top: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+}
+
+div.top {
+    margin-top: 150px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.content {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 40px;
+    border: 5px solid black;
+    height: 200px;
+    float: left;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    border-radius: 40px;
+    border: 5px solid black;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+button.added {
+    height: 100px;
+    width: 150px;
+    border-radius: 40px;
+    border: 5px solid black;
+    margin-left: 50px;
+}
